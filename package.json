@@ -1,0 +1,22 @@
+{
+  "name": "awesome-javascript",
+  "version": "0.0.1",
+  "description": "A collection of awesome browser-side JavaScript libraries, resources and shiny things.",
+  "main": "index.js",
+  "authors": {
+    "name": "Vo Manh Kien",
+    "email": "hi@vomanhkien.com"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "lint": "markdownlint . -i node_modules",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.3",
+    "@vuepress/plugin-medium-zoom": "^1.3.1",
+    "markdownlint-cli": "^0.23.2",
+    "vuepress": "^1.3.1"
+  }
+}
